@@ -12,4 +12,5 @@ class Solution:
         if p and q and p.val == q.val:
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
-        return False
+        else:
+            return False
